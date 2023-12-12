@@ -5,7 +5,7 @@ using namespace std;
 
 //[Missing Code 1] Write definition of the function findGrade() here.
 char findGrade(double grade) {
- if (grade >90)
+ if (grade >=90)
     return 'A' ;
     else if(grade >75)
     return 'B' ;
@@ -17,7 +17,6 @@ char findGrade(double grade) {
     return 'F' ;
     return grade;
  }
-
 
 
 int main(){
